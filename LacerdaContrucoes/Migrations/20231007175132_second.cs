@@ -59,7 +59,7 @@ namespace LacerdaContrucoes.Migrations
                 columns: table => new
                 {
                     CadVendasId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    NotaDaVenda = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    NotaDaVenda = table.Column<int>(type: "int", nullable: false),
                     DataDaVenda = table.Column<DateTime>(type: "datetime2", nullable: false),
                     VendaId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
