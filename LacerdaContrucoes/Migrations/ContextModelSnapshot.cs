@@ -22,24 +22,46 @@ namespace LacerdaContrucoes.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("LacerdaContrucoes.Models.CadCompras", b =>
+                {
+                    b.Property<Guid>("CadComprasId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DataDaCompra")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("FornecedorId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("NotaDaCompra")
+                        .HasColumnType("int");
+
+                    b.HasKey("CadComprasId");
+
+                    b.HasIndex("FornecedorId");
+
+                    b.ToTable("tbCadCompras", (string)null);
+                });
+
             modelBuilder.Entity("LacerdaContrucoes.Models.CadVendas", b =>
                 {
                     b.Property<Guid>("CadVendasId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("ClienteId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataDaVenda")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("NotaDaVenda")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("VendaId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("NotaDaVenda")
+                        .HasColumnType("int");
 
                     b.HasKey("CadVendasId");
 
-                    b.HasIndex("VendaId");
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("tbCadVendas", (string)null);
                 });
@@ -87,6 +109,30 @@ namespace LacerdaContrucoes.Migrations
                     b.ToTable("tbClientes", (string)null);
                 });
 
+            modelBuilder.Entity("LacerdaContrucoes.Models.Compra", b =>
+                {
+                    b.Property<Guid>("CompraId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CadComprasId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ProdutoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("qtdCompra")
+                        .HasColumnType("int");
+
+                    b.HasKey("CompraId");
+
+                    b.HasIndex("CadComprasId");
+
+                    b.HasIndex("ProdutoId");
+
+                    b.ToTable("Compra");
+                });
+
             modelBuilder.Entity("LacerdaContrucoes.Models.Fornecedor", b =>
                 {
                     b.Property<Guid>("FornecedorId")
@@ -120,6 +166,10 @@ namespace LacerdaContrucoes.Migrations
                     b.Property<int>("PrecoUni")
                         .HasColumnType("int");
 
+                    b.Property<string>("ProdutoName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("qnt")
                         .HasColumnType("int");
 
@@ -138,6 +188,9 @@ namespace LacerdaContrucoes.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("CadVendasId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid?>("ProdutoId")
                         .HasColumnType("uniqueidentifier");
 
@@ -146,18 +199,44 @@ namespace LacerdaContrucoes.Migrations
 
                     b.HasKey("VendaId");
 
+                    b.HasIndex("CadVendasId");
+
                     b.HasIndex("ProdutoId");
 
                     b.ToTable("tbVendas", (string)null);
                 });
 
+            modelBuilder.Entity("LacerdaContrucoes.Models.CadCompras", b =>
+                {
+                    b.HasOne("LacerdaContrucoes.Models.Fornecedor", "Fornecedor")
+                        .WithMany()
+                        .HasForeignKey("FornecedorId");
+
+                    b.Navigation("Fornecedor");
+                });
+
             modelBuilder.Entity("LacerdaContrucoes.Models.CadVendas", b =>
                 {
-                    b.HasOne("LacerdaContrucoes.Models.Venda", "Venda")
+                    b.HasOne("LacerdaContrucoes.Models.Cliente", "Cliente")
                         .WithMany()
-                        .HasForeignKey("VendaId");
+                        .HasForeignKey("ClienteId");
 
-                    b.Navigation("Venda");
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("LacerdaContrucoes.Models.Compra", b =>
+                {
+                    b.HasOne("LacerdaContrucoes.Models.CadCompras", "CadCompras")
+                        .WithMany("Compras")
+                        .HasForeignKey("CadComprasId");
+
+                    b.HasOne("LacerdaContrucoes.Models.Produto", "Produto")
+                        .WithMany()
+                        .HasForeignKey("ProdutoId");
+
+                    b.Navigation("CadCompras");
+
+                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("LacerdaContrucoes.Models.Produto", b =>
@@ -177,11 +256,27 @@ namespace LacerdaContrucoes.Migrations
 
             modelBuilder.Entity("LacerdaContrucoes.Models.Venda", b =>
                 {
+                    b.HasOne("LacerdaContrucoes.Models.CadVendas", "CadVendas")
+                        .WithMany("Vendas")
+                        .HasForeignKey("CadVendasId");
+
                     b.HasOne("LacerdaContrucoes.Models.Produto", "Produto")
                         .WithMany()
                         .HasForeignKey("ProdutoId");
 
+                    b.Navigation("CadVendas");
+
                     b.Navigation("Produto");
+                });
+
+            modelBuilder.Entity("LacerdaContrucoes.Models.CadCompras", b =>
+                {
+                    b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("LacerdaContrucoes.Models.CadVendas", b =>
+                {
+                    b.Navigation("Vendas");
                 });
 #pragma warning restore 612, 618
         }

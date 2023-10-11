@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 
 namespace LacerdaContrucoes.Models
 {
@@ -14,7 +13,7 @@ namespace LacerdaContrucoes.Models
         public Cliente? Cliente { get; set; }
 
         [DisplayName("Item da venda")]
-        public IEnumerable<Venda> Vendas { get; set; }
+        public IEnumerable<Venda>? Vendas { get; set; }
 
     }
 }

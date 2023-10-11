@@ -1,0 +1,49 @@
+﻿@model IEnumerable<LacerdaContrucoes.Models.CadCompras>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.NotaDaCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDaCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fornecedor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotaDaCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDaCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fornecedor.FornecedorId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CadComprasId">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.CadComprasId">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.CadComprasId">Delete</a>
+                <a asp-controller="Compras" asp-action="Index" asp-route-id="@item.CadComprasId">items</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

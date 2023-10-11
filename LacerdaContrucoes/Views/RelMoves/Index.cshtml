@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LacerdaContrucoes.Models.Produto>
+
+
+<h4>Relatorios De Movimentação</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Data Inicial: </label>
+                <input type="date" name="dateIn" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Data Final: </label>
+                <input type="date" name="dateOf" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Tipo de Movimentação: </label>
+                <select class="form-control" name="tipoMove">
+                    <option value="E">Compra</option>
+                    <option value="S">Vendas</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Produto: </label>
+                <select class="form-control" name="prods">
+                    <option value="@null">Todos</option>
+                    @foreach(var produto in Model)
+                    {
+                        <option value="@produto.ProdutoId">@produto.ProdutoName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" asp-action="Filter" value="enviar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
