@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LacerdaContrucoes.Models.Compra>
+
+@{
+    ViewData["Title"] = "Index";
+    var id = ViewData["idCompra"];
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" asp-route-id=@id>Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto.ProdutoName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CadCompras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.qtdCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.ProdutoName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CadCompras.CadComprasId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.qtdCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.ProdutoId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CompraId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CompraId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CompraId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
