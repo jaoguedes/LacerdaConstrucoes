@@ -5,10 +5,10 @@
     var id = ViewData["idCompra"];
 }
 
-<h1>Index</h1>
+<h1>Compras</h1>
 
 <p>
-    <a asp-action="Create" asp-route-id=@id>Create New</a>
+    <a asp-action="Create" asp-route-id=@id class="btn btn-primary">Criar Novo</a>
 </p>
 <table class="table">
     <thead>
@@ -44,9 +44,9 @@
                 @Html.DisplayFor(modelItem => item.Produto.ProdutoId)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CompraId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CompraId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CompraId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.CompraId" class="btn btn-primary">Editar</a> 
+                    <a asp-action="Details" asp-route-id="@item.CompraId" class="btn btn-secondary">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.CompraId" class="btn btn-danger">Apagar</a>
             </td>
         </tr>
 }

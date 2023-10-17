@@ -4,39 +4,43 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 class="text-white text-center">Detalhes</h1>
 
 <div>
-    <h4>Produto</h4>
+    <h4 class="text-white text-center">Produto</h4>
     <hr />
-    <dl class="row">
+    <dl class="row justify-content-center text-white text-center">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.qnt)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.qnt)
         </dd>
+        <hr />
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.PrecoUni)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PrecoUni)
         </dd>
+        <hr />
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CategoriaDeProdutos)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CategoriaDeProdutos.CategoriaDeProdutosId)
         </dd>
+        <hr />
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Fornecedor)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Fornecedor.FornecedorId)
         </dd>
+        <hr />
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ProdutoId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="d-flex justify-content-center">
+    <a asp-action="Edit" asp-route-id="@Model?.ProdutoId" class="btn btn-primary">Editar</a> 
+    <a asp-action="Index" class="btn btn-secondary ms-3">Voltar para a Lista</a>
 </div>
