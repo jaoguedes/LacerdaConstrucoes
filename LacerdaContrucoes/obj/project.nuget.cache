@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8V2lczhOu1nyq7GDuSCHmU1FcBBUS72QaJ7nPz0W+Gwi2ECG4wwvCAwhRGsvKpockMZXZ2+IRLBU866Oegp2FA==",
+  "dgSpecHash": "OXKNhOEwOL4U9qd91hQjWEpkEEoczzblhHQUAjPPrjLXA4BELbyQG4XWaFNqScT8h6+fxOt5ultpBWkeuqGy6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\laserda\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\lacerdaContrucao\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

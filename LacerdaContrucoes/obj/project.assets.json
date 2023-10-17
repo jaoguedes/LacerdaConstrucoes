@@ -11661,11 +11661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\laserda\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\lacerdaContrucao\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
       "projectName": "LacerdaContrucoes",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\laserda\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
+      "projectPath": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\lacerdaContrucao\\LacerdaConstrucoes\\LacerdaContrucoes\\LacerdaContrucoes.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\laserda\\LacerdaConstrucoes\\LacerdaContrucoes\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\lacerdaContrucao\\LacerdaConstrucoes\\LacerdaContrucoes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

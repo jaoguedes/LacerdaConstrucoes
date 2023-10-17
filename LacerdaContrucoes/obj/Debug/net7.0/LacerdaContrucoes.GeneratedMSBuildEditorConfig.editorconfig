@@ -9,209 +9,209 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LacerdaContrucoes
 build_property.RootNamespace = LacerdaContrucoes
-build_property.ProjectDir = C:\Users\Aluno\Desktop\laserda\LacerdaConstrucoes\LacerdaContrucoes\
+build_property.ProjectDir = C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\lacerdaContrucao\LacerdaConstrucoes\LacerdaContrucoes\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Aluno\Desktop\laserda\LacerdaConstrucoes\LacerdaContrucoes
+build_property.MSBuildProjectDirectory = C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\lacerdaContrucao\LacerdaConstrucoes\LacerdaContrucoes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ29tcHJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ29tcHJhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ29tcHJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadCompras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ29tcHJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkVmVuZGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkVmVuZGFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkVmVuZGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkVmVuZGFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CadVendas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkVmVuZGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRGVQcm9kdXRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRGVQcm9kdXRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRGVQcm9kdXRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRGVQcm9kdXRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/CategoriaDeProdutos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRGVQcm9kdXRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Compras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvcmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvcmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvcmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvcmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Fornecedores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvcmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Home/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Home/Privacy.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/RelMoves/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/RelMoves/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsTW92ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/Error.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Create.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Delete.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Details.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Edit.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Index.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Vendas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/_ViewImports.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/_ViewStart.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/laserda/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_Layout.cshtml]
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Área de Trabalho/lacerdaContrucao/LacerdaConstrucoes/LacerdaContrucoes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wab5l5oitu
